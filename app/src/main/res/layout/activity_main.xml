@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/oldwood"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.dolphin.budgetmanagmentsystem.MainActivity">
+
+    <Button
+        android:id="@+id/signup"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/signup"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="@string/signup"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/edittextroundcorner"
+        android:drawableLeft="@drawable/person"
+        android:hint="User name"
+        android:padding="10dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="@drawable/edittextroundcorner"
+        android:drawableLeft="@drawable/ic_action_name"
+        android:hint="Password"
+        android:padding="10dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="20sp"
+        android:background="@drawable/btn"
+        android:shadowColor="#A8A8A8"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="5"
+        android:text="@string/loginbutton"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/hiddenmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edittextroundcorner"
+        android:padding="2dp"
+        android:text="@string/hiddentest"
+        android:textColor="#fa1046"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/redbtn"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:background="@drawable/redbutton"
+        android:padding="2dp"
+        android:text="@string/clickred" />
+
+</LinearLayout>

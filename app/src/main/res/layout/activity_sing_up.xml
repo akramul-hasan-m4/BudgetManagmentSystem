@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.example.dolphin.budgetmanagmentsystem.SingUp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Sign Up Form"
+        android:textColor="#194e0c"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/singName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/singPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your password"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/singEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Email"
+        android:textStyle="italic" />
+
+    <EditText
+        android:id="@+id/singPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your Phone number"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/signId"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn"
+        android:text="Submit"
+        android:textColor="#f7f5f5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="left|bottom">
+
+        <Button
+            android:id="@+id/signBack"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Back"
+            android:textColor="#bc2626"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+</LinearLayout>

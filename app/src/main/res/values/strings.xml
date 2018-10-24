@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">BudgetManagmentSystem</string>
+    <string name="loginbutton">Login</string>
+    <string name="hiddentest">Forgate password ?</string>
+    <string name="clickred">Click here</string>
+    <string name="signup">Sign up</string>
+    <string name="title_text">Exit</string>
+    <string name="dialog_msg_text">Are you sure ?</string>
+    <string name="title_activity_income">Income</string>
+
+</resources>
